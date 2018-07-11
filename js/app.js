@@ -1,12 +1,14 @@
-const path = require('path');
-const file = path.resolve('./stats.js');
-
-function createJSONFile(file, JSONObject){
-    require('fs').writeFile(file, JSON.stringify(JSONObject, null, 5), (err) => {
-        if(err){
+/**Function to create JSON file */
+function createJSON(file, dataset) {
+    require('fs').writeFile(file, JSON.stringify(dataset, null, 5), (err) => {
+        if (err) {
             console.log(err);
             return;
         }
         console.log('File Created');
     });
+}
+
+module.exports = {
+    createJSON: createJSON
 }

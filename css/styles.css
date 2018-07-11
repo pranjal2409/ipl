@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.high-charts{
+    width: 100%;
+    height: 500%;
+    margin: 100px auto 200px auto;
+}

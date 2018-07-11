@@ -1,3 +1,6 @@
+/******************** Server file and Charts Implementation ********************/
+
+/* Server Creation */
 function loadJSON(path, error) {
     let charts = [];
     var xhr = new XMLHttpRequest();
@@ -16,6 +19,7 @@ function loadJSON(path, error) {
     return charts;
 }
 
+/* Chart for Matches Per Year */
 function createMatchesPerYearCharts(){
     let chart1 = loadJSON('../json/matchesPerYear.json');
     var chart = new CanvasJS.Chart("chartContainer1", {
@@ -36,8 +40,8 @@ function createMatchesPerYearCharts(){
     chart.render();
 }
 
+/* Chart for Wins Per Season */
 function createWinsOfTeamsPerSeason(){
-
     let chart2 = loadJSON('../json/teamWinsPerSeason.json');
     let team = [];
     let record = [];
@@ -86,6 +90,7 @@ function createWinsOfTeamsPerSeason(){
     }    
 }
 
+/* Chart for Extra Runs Conceded */
 function createExtraRunsConceded(){
     let chart3 = loadJSON('../json/extraRunsConcededIn2016.json');
     var chart = new CanvasJS.Chart("chartContainer3", {
@@ -106,6 +111,7 @@ function createExtraRunsConceded(){
     chart.render();
 }
 
+/* Chart for Economical Bowlers */
 function createTopTenEconomicalBowlers(){
     let chart4 = loadJSON('../json/topTenEconomicalBowlers.json');
     var chart = new CanvasJS.Chart("chartContainer4", {
@@ -126,6 +132,7 @@ function createTopTenEconomicalBowlers(){
     chart.render();
 }
 
+/* Chart for Top Sixes Scorers */
 function createTopSixesScorers(){
     let chart5 = loadJSON('../json/topTenSixesScorers.json');
     var chart = new CanvasJS.Chart("chartContainer5", {
@@ -145,6 +152,8 @@ function createTopSixesScorers(){
     });
     chart.render();
 }
+
+/* Function Calls */
 
 createMatchesPerYearCharts();
 createWinsOfTeamsPerSeason();

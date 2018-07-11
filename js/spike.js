@@ -370,8 +370,6 @@ topTenSixesScorers(deliveries).then(function (result) {
     // createJSON('../json/topTenSixesScorers.json', result);
 });
 
-/******************** Function for creating JSON files ********************/
-
 function createJSON(file, dataset) {
     require('fs').writeFile(file, JSON.stringify(dataset, null, 5), (err) => {
         if (err) {
@@ -382,15 +380,6 @@ function createJSON(file, dataset) {
     });
 }
 
-/******************** Modules for Testing ********************/
 module.exports = {
-    matchesPerYear: matchesPerYear,
-    winsPerYear: winsPerYear,
-    getMatchId2016: getMatchId2016,
-    get2016BowlingTeams: get2016BowlingTeams,
-    getMatchId2015: getMatchId2015,
-    getEconomyRate: getEconomyRate,
-    topTenEconomicalBowlers: topTenEconomicalBowlers,
-    getBatsmanScored6: getBatsmanScored6,
-    topTenSixesScorers: topTenSixesScorers
+    createJSON: createJSON
 }
