@@ -97,8 +97,8 @@ let getEconomyRate = function (deliveries) {
 let topTenEconomicalBowlers = function (deliveries) {
     return new Promise(function (resolve, reject) {
         getEconomyRate(deliveries).then(function (result) {
-            result.sort(function (a, b) {
-                return a.economy - b.economy;
+            result.sort(function (economy1, economy2) {
+                return economy1.economy - economy2.economy;
             });
             let topTen = [];
             for (let bowler = 0; bowler < 10; bowler++) {

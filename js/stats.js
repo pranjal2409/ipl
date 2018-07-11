@@ -1,8 +1,8 @@
 /******************** Global Variables ********************/
 
 const path = require('path');
-const matches = path.resolve('../csv/matches.csv');
-const deliveries = path.resolve('../csv/deliveries.csv');
+const matches = path.resolve('csv/matches.csv');
+const deliveries = path.resolve('csv/deliveries.csv');
 
 /******************** Number of Matches Per Year ********************/
 
@@ -97,7 +97,7 @@ winsPerYear(matches).then(function (result) {
         winObject[temp] = winArr;
         wins.push(winObject);
     }
-    createJSON('../json/teamWinsPerSeasonByYear.json', wins);
+    createJSON('json/teamWinsPerSeasonByYear.json', wins);
 });
 
 /******************** 2016 extra runs conceded per team ********************/
@@ -284,8 +284,8 @@ let getEconomyRate = function (deliveries) {
 let topTenEconomicalBowlers = function (deliveries) {
     return new Promise(function (resolve, reject) {
         getEconomyRate(deliveries).then(function (result) {
-            result.sort(function (a, b) {
-                return a.economy - b.economy;
+            result.sort(function (eco1, eco2) {
+                return eco1.economy - eco2.economy;
             });
             let topTen = [];
             for (let bowler = 0; bowler < 10; bowler++) {
@@ -355,8 +355,8 @@ let topTenSixesScorers = function (deliveries) {
                 }
                 sixesScorers.push(obj);
             }
-            sixesScorers.sort(function (a, b) {
-                return a.sixes - b.sixes;
+            sixesScorers.sort(function (six1, six2) {
+                return six1.sixes - six2.sixes;
             });
             for (let six = sixesScorers.length - 1; six > sixesScorers.length - 11; six--) {
                 topSixesScorers[six] = sixesScorers[six];

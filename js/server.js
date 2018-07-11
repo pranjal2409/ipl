@@ -31,6 +31,9 @@ function createMatchesPerYearCharts(){
         axisY: {
             title: "Matches"
         },
+        axisX: {
+            title: "Seasons"
+        },
         data: [{        
             type: "column",  
             legendMarkerColor: "grey",
@@ -68,6 +71,12 @@ function createWinsOfTeamsPerSeason(){
             text: "Team Wins Per Season",
             fontSize: 40
         },
+        axisX: {
+            title: "Seasons"
+        },
+        axisY: {
+            title: "Overall Wins"
+        },
         toolTip: {
             shared: true
         },
@@ -97,10 +106,13 @@ function createExtraRunsConceded(){
         animationEnabled: true,
         theme: "light1", 
         title:{
-            text: "Wins Per Season"
+            text: "2016 Extra Runs Conceded by Each Team"
         },
         axisY: {
             title: "Matches Won"
+        },
+        axisX: {
+            title: "Teams"
         },
         data: [{        
             type: "column",  
@@ -118,10 +130,13 @@ function createTopTenEconomicalBowlers(){
         animationEnabled: true,
         theme: "light1", 
         title:{
-            text: "Top Ten Economical Bowlers"
+            text: "Top Ten Economical Bowlers of 2015"
         },
         axisY: {
             title: "Economy Rate"
+        },
+        axisX: {
+            title: "Bowlers"
         },
         data: [{        
             type: "column",  
@@ -139,10 +154,13 @@ function createTopSixesScorers(){
         animationEnabled: true,
         theme: "light1", 
         title:{
-            text: "Top Ten Sixes Scorers"
+            text: "Top Ten Sixes Scorers 2008-17"
         },
         axisY: {
             title: "Sixes"
+        },
+        axisX: {
+            title: "Batsmans"
         },
         data: [{        
             type: "column",  

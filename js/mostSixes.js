@@ -52,8 +52,8 @@ let topTenSixesScorers = function (deliveries) {
                 }
                 sixesScorers.push(obj);
             }
-            sixesScorers.sort(function (a, b) {
-                return a.sixes - b.sixes;
+            sixesScorers.sort(function (six1, six2) {
+                return six1.sixes - six2.sixes;
             });
             for (let six = sixesScorers.length - 1; six > sixesScorers.length - 11; six--) {
                 topSixesScorers[six] = sixesScorers[six];

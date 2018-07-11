@@ -6,10 +6,10 @@ const path = require('path');
 const file = require('../js/stats.js');
 
 /* Describe */
-describe('stats', function(){
+describe('Matches Per Season', function(){
 
 /* Checking whething file is empty or not */
-	it('check valid file - non empty csv file', async function(){
+	it('should not allow empty files to read', async function(){
 		const dataset = path.resolve('test/sampleCSV/emptyCSV.csv');
 		const expectedOutput = {};
 		file.matchesPerYear(dataset).then(function(data){
@@ -18,7 +18,7 @@ describe('stats', function(){
 	});
 
 /* Checking whether their is null entries or undefined entries or not */
-	it('check valid inputs - null entries', function(done){
+	it('should not allow null data to be entered', function(done){
 		const dataset = path.resolve('test/sampleCSV/nullEntries.csv');
 		const expectedOutput = {
 			2008: 2,
@@ -40,7 +40,7 @@ describe('stats', function(){
 	});
 
 /* Checking whether entries are in integer format or string format */
-	it('check valid inputs - integer format', function(done){
+	it('should return only integer values for years', function(done){
 		const dataset = path.resolve('test/sampleCSV/validFormat.csv');
 		const expectedOutput = {
 			2008: 1,
@@ -60,7 +60,7 @@ describe('stats', function(){
 	});
 
 /* checking whether desired output is been generated or not */
-	it('check correct output', function(done){
+	it('should return the number of matches played per season', function(done){
 		const dataset = path.resolve('test/sampleCSV/sampleMatches.csv');
 		const expectedOutput = {
 			2008: 2,
