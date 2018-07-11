@@ -39,7 +39,11 @@ describe('stats', function(){
 	xit('Checking generated output equals desired output', (done) => {
 		const dataset = path.resolve('test/sampleCSV/nullDeliveries.csv');
 		const expectedOutput = [
-			{ 'D Wiese': 2, 'DW Steyn': 1, 'JP Faulkner': 1 }
+			{ 
+				'D Wiese': 2, 
+				'DW Steyn': 1, 
+				'JP Faulkner': 1 
+			}
 		];
 		file.topTenEconomicalBowlers(dataset).then(function(data){
 			try{

@@ -381,5 +381,14 @@ function createJSON(file, dataset) {
 }
 
 module.exports = {
+    matchesPerYear: matchesPerYear,
+    winsPerYear: winsPerYear,
+    getMatchId2016: getMatchId2016,
+    get2016BowlingTeams: get2016BowlingTeams,
+    getMatchId2015: getMatchId2015,
+    getEconomyRate: getEconomyRate,
+    topTenEconomicalBowlers: topTenEconomicalBowlers,
+    getBatsmanScored6: getBatsmanScored6,
+    topTenSixesScorers: topTenSixesScorers,
     createJSON: createJSON
 }

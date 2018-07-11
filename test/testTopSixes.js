@@ -48,7 +48,7 @@ describe('stats', function(){
 				'Sunrisers Hyderabad': 1
 			},
 		};
-		file.winsPerYear(dataset).then(function(data){
+		file.getBatsmanScored6(dataset).then(function(data){
 			try{
 				expect(data).to.deep.equal(expectedOutput);
 				done();

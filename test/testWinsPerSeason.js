@@ -35,6 +35,14 @@ describe('stats', function(){
 				'Kolkata Knight Riders': 1,
 				'Royal Challengers Bangalore': 1,
 				'Mumbai Indians': 1
+			},
+			2016: {
+				"Delhi Daredevils": 1,
+     			"Gujarat Lions": 2,
+     			"Kolkata Knight Riders": 1,
+     			"Rising Pune Supergiants": 1,
+     			"Royal Challengers Bangalore": 3,
+     			"Sunrisers Hyderabad": 3
 			}
 		};
 		file.winsPerYear(dataset).then(function(data){
@@ -49,7 +57,7 @@ describe('stats', function(){
 	});
 
 /* Checking entries format - season format integer */
-	xit('check valid inputs - season format integer', (done) => {
+	it('check valid inputs - season format integer', (done) => {
 		const dataset = path.resolve('test/sampleCSV/validFormat.csv');
 		const expectedOutput = {
 			2008: {
@@ -57,6 +65,13 @@ describe('stats', function(){
 			},
 			2009: {
 				'Kolkata Knight Riders': 1
+			},
+			2016: {
+				"Delhi Daredevils": 1,
+     			"Gujarat Lions": 2,
+     			"Kolkata Knight Riders": 1,
+     			"Royal Challengers Bangalore": 3,
+     			"Sunrisers Hyderabad": 2
 			},
 			2017: {
 				'Royal Challengers Bangalore': 2,
@@ -75,7 +90,7 @@ describe('stats', function(){
 	});
 
 /* Checking generated output equals desired output */
-	xit('Checking generated output equals desired output', (done) => {
+	it('Checking generated output equals desired output', (done) => {
 		const dataset = path.resolve('test/sampleCSV/sampleMatches.csv');
 		const expectedOutput = {
 			2008: {
