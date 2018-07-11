@@ -16,5 +16,13 @@
   "directories": {
     "test": "test"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranjal2409/ipl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pranjal2409/ipl/issues"
+  },
+  "homepage": "https://github.com/pranjal2409/ipl#readme"
 }

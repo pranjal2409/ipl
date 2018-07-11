@@ -1,0 +1,378 @@
+[
+    {
+        "2008": [
+            {
+                "y": 6,
+                "label": "Kolkata Knight Riders"
+            },
+            {
+                "y": 9,
+                "label": "Chennai Super Kings"
+            },
+            {
+                "y": 7,
+                "label": "Delhi Daredevils"
+            },
+            {
+                "y": 4,
+                "label": "Royal Challengers Bangalore"
+            },
+            {
+                "y": 1,
+                "label": "Rajasthan Royals"
+            },
+            {
+                "y": 1,
+                "label": "Kings XI Punjab"
+            },
+            {
+                "y": 2,
+                "label": "Deccan Chargers"
+            },
+            {
+                "y": 7,
+                "label": "Mumbai Indians"
+            }
+        ]
+    },
+    {
+        "2009": [
+            {
+                "y": 5,
+                "label": "Mumbai Indians"
+            },
+            {
+                "y": 9,
+                "label": "Royal Challengers Bangalore"
+            },
+            {
+                "y": 1,
+                "label": "Delhi Daredevils"
+            },
+            {
+                "y": 9,
+                "label": "Deccan Chargers"
+            },
+            {
+                "y": 8,
+                "label": "Chennai Super Kings"
+            },
+            {
+                "y": 3,
+                "label": "Kolkata Knight Riders"
+            },
+            {
+                "y": 6,
+                "label": "Rajasthan Royals"
+            },
+            {
+                "y": 7,
+                "label": "Kings XI Punjab"
+            }
+        ]
+    },
+    {
+        "2010": [
+            {
+                "y": 7,
+                "label": "Kolkata Knight Riders"
+            },
+            {
+                "y": 1,
+                "label": "Mumbai Indians"
+            },
+            {
+                "y": 7,
+                "label": "Delhi Daredevils"
+            },
+            {
+                "y": 8,
+                "label": "Deccan Chargers"
+            },
+            {
+                "y": 8,
+                "label": "Royal Challengers Bangalore"
+            },
+            {
+                "y": 9,
+                "label": "Chennai Super Kings"
+            },
+            {
+                "y": 6,
+                "label": "Rajasthan Royals"
+            },
+            {
+                "y": 4,
+                "label": "Kings XI Punjab"
+            }
+        ]
+    },
+    {
+        "2011": [
+            {
+                "y": 1,
+                "label": "Chennai Super Kings"
+            },
+            {
+                "y": 6,
+                "label": "Rajasthan Royals"
+            },
+            {
+                "y": 1,
+                "label": "Royal Challengers Bangalore"
+            },
+            {
+                "y": 1,
+                "label": "Mumbai Indians"
+            },
+            {
+                "y": 4,
+                "label": "Pune Warriors"
+            },
+            {
+                "y": 8,
+                "label": "Kolkata Knight Riders"
+            },
+            {
+                "y": 7,
+                "label": "Kings XI Punjab"
+            },
+            {
+                "y": 6,
+                "label": "Deccan Chargers"
+            },
+            {
+                "y": 6,
+                "label": "Kochi Tuskers Kerala"
+            },
+            {
+                "y": 4,
+                "label": "Delhi Daredevils"
+            }
+        ]
+    },
+    {
+        "2012": [
+            {
+                "y": 1,
+                "label": "Mumbai Indians"
+            },
+            {
+                "y": 1,
+                "label": "Delhi Daredevils"
+            },
+            {
+                "y": 4,
+                "label": "Pune Warriors"
+            },
+            {
+                "y": 7,
+                "label": "Rajasthan Royals"
+            },
+            {
+                "y": 8,
+                "label": "Royal Challengers Bangalore"
+            },
+            {
+                "y": 1,
+                "label": "Chennai Super Kings"
+            },
+            {
+                "y": 1,
+                "label": "Kolkata Knight Riders"
+            },
+            {
+                "y": 8,
+                "label": "Kings XI Punjab"
+            },
+            {
+                "y": 4,
+                "label": "Deccan Chargers"
+            }
+        ]
+    },
+    {
+        "2013": [
+            {
+                "y": 6,
+                "label": "Kolkata Knight Riders"
+            },
+            {
+                "y": 9,
+                "label": "Royal Challengers Bangalore"
+            },
+            {
+                "y": 1,
+                "label": "Sunrisers Hyderabad"
+            },
+            {
+                "y": 1,
+                "label": "Rajasthan Royals"
+            },
+            {
+                "y": 1,
+                "label": "Mumbai Indians"
+            },
+            {
+                "y": 8,
+                "label": "Kings XI Punjab"
+            },
+            {
+                "y": 1,
+                "label": "Chennai Super Kings"
+            },
+            {
+                "y": 4,
+                "label": "Pune Warriors"
+            },
+            {
+                "y": 3,
+                "label": "Delhi Daredevils"
+            }
+        ]
+    },
+    {
+        "2014": [
+            {
+                "y": 1,
+                "label": "Kolkata Knight Riders"
+            },
+            {
+                "y": 5,
+                "label": "Royal Challengers Bangalore"
+            },
+            {
+                "y": 1,
+                "label": "Kings XI Punjab"
+            },
+            {
+                "y": 7,
+                "label": "Rajasthan Royals"
+            },
+            {
+                "y": 2,
+                "label": "Delhi Daredevils"
+            },
+            {
+                "y": 1,
+                "label": "Chennai Super Kings"
+            },
+            {
+                "y": 6,
+                "label": "Sunrisers Hyderabad"
+            },
+            {
+                "y": 7,
+                "label": "Mumbai Indians"
+            }
+        ]
+    },
+    {
+        "2015": [
+            {
+                "y": 7,
+                "label": "Kolkata Knight Riders"
+            },
+            {
+                "y": 1,
+                "label": "Chennai Super Kings"
+            },
+            {
+                "y": 7,
+                "label": "Rajasthan Royals"
+            },
+            {
+                "y": 8,
+                "label": "Royal Challengers Bangalore"
+            },
+            {
+                "y": 3,
+                "label": "Kings XI Punjab"
+            },
+            {
+                "y": 7,
+                "label": "Sunrisers Hyderabad"
+            },
+            {
+                "y": 5,
+                "label": "Delhi Daredevils"
+            },
+            {
+                "y": 1,
+                "label": "Mumbai Indians"
+            }
+        ]
+    },
+    {
+        "2016": [
+            {
+                "y": 5,
+                "label": "Rising Pune Supergiants"
+            },
+            {
+                "y": 8,
+                "label": "Kolkata Knight Riders"
+            },
+            {
+                "y": 9,
+                "label": "Gujarat Lions"
+            },
+            {
+                "y": 9,
+                "label": "Royal Challengers Bangalore"
+            },
+            {
+                "y": 7,
+                "label": "Mumbai Indians"
+            },
+            {
+                "y": 7,
+                "label": "Delhi Daredevils"
+            },
+            {
+                "y": 4,
+                "label": "Kings XI Punjab"
+            },
+            {
+                "y": 1,
+                "label": "Sunrisers Hyderabad"
+            }
+        ]
+    },
+    {
+        "2017": [
+            {
+                "y": 8,
+                "label": "Sunrisers Hyderabad"
+            },
+            {
+                "y": 1,
+                "label": "Rising Pune Supergiants"
+            },
+            {
+                "y": 9,
+                "label": "Kolkata Knight Riders"
+            },
+            {
+                "y": 7,
+                "label": "Kings XI Punjab"
+            },
+            {
+                "y": 3,
+                "label": "Royal Challengers Bangalore"
+            },
+            {
+                "y": 1,
+                "label": "Mumbai Indians"
+            },
+            {
+                "y": 6,
+                "label": "Delhi Daredevils"
+            },
+            {
+                "y": 4,
+                "label": "Gujarat Lions"
+            }
+        ]
+    }
+]
