@@ -18,7 +18,7 @@ describe('stats', function(){
 	});
 
 /* Checking whether their is null entries or undefined entries or not */
-	xit('check valid inputs - not null entries', (done) => {
+	it('check valid inputs - not null entries', (done) => {
 		const dataset = path.resolve('test/sampleCSV/nullEntries.csv');
 		const expectedOutput = {
 			2008: {
